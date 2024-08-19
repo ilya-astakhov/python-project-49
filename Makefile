@@ -16,3 +16,19 @@ publish: # публикация
 
 package-install: # инсталяция чего то
         python3 -m pip install --user dist/*.whl
+
+
+lint: # запуск линтера
+        poetry run flake8 brain_games
+
+
+brain-calc:
+        poetry run brain-calc
+
+
+brain-gcd:
+        poetry run brain-gcd
+
+
+brain-progression:
+        poetry run brain-progression
