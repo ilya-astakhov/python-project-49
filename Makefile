@@ -32,3 +32,11 @@ brain-gcd:
 
 brain-progression:
 	poetry run brain-progression
+
+
+brain-even:
+	poetry run brain-even
+
+
+brain-prime:
+	poetry run brain-prime
