@@ -24,13 +24,13 @@ def even():
     if y in ['yes'] and x % 2 == 0:
         print('Correct!')
     elif y in ['yes'] and x % 2 != 0:
-        print("'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again,", name1)  # noqa: E501
+        print("'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again,", name1, end='!')  # noqa: E501
         return
     elif y in ['no'] and x % 2 != 0:
         print('Correct!')
     else:
         y in ['no'] and x % 2 == 0
-        print("'no' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again,", name1)  # noqa: E501
+        print("'no' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again,", name1, end='!')  # noqa: E501
         return
     # второй проход
     x = randint(1, 999)
@@ -39,13 +39,13 @@ def even():
     if y in ['yes'] and x % 2 == 0:
         print('Correct!')
     elif y in ['yes'] and x % 2 != 0:
-        print("'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again,", name1)  # noqa: E501
+        print("'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again,", name1, end='!')  # noqa: E501
         return
     elif y in ['no'] and x % 2 != 0:
         print('Correct!')
     else:
         y in ['no'] and x % 2 == 0
-        print("'no' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again,", name1)  # noqa: E501
+        print("'no' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again,", name1, end='!') # noqa: E501
         return
     # третий проход
     x = randint(1, 999)
@@ -55,12 +55,12 @@ def even():
         print('Correct!\nCongratulations,', name1, end='!')
 	# print(f'Correct!\nCongratulations, {name1}!')
     elif y in ['yes'] and x % 2 != 0:
-        print("'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again,", name1)  # noqa: E501
+        print("'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again,", name1, end='!')  # noqa: E501
         return
     elif y in ['no'] and x % 2 != 0:
         # print(f'Correct!'\n'Congratulations, {name1}!')
         print('Correct!\nCongratulations,', name1, end='!')
     else:
         y in ['no'] and x % 2 == 0
-        print("'no' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again,", name1)  # noqa: E501
+        print("'no' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again,", name1, end='!')  # noqa: E501
         return
