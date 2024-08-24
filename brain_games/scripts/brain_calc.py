@@ -34,7 +34,7 @@ def calc():
         print('Correct!')
     else:
         y != d
-        print("'", y, "' is wrong answer ;(. Correct answer was '", d, "'.\nLet's try again,", name1)  # noqa: E501
+        print("'", y, "' is wrong answer ;(. Correct answer was '", d, "'.\nLet's try again,", name1, end='!')  # noqa: E501
         return
     # второй проход
     a = random.randint(1, 9)
@@ -53,7 +53,7 @@ def calc():
         print('Correct!')
     else:
         y != d
-        print("'", y, "' is wrong answer ;(. Correct answer was '", d, "'.\nLet's try again,", name1)  # noqa: E501
+        print("'", y, "' is wrong answer ;(. Correct answer was '", d, "'.\nLet's try again,", name1, end='!')  # noqa: E501
         return
     # третий проход
     a = random.randint(1, 9)
@@ -69,9 +69,9 @@ def calc():
         d = a * b
     y = int(input("Your answer:"))
     if y == d:
-        print('Correct!\nCongratulations,', name1)
+        print('Correct!\nCongratulations,', name1, end='!')
         return
     else:
         y != d
-        print("'", y, "' is wrong answer ;(. Correct answer was '", d, "'.\nLet's try again,", name1)  # noqa: E501
+        print("'", y, "' is wrong answer ;(. Correct answer was '", d, "'.\nLet's try again,", name1, end='!')  # noqa: E501
         return

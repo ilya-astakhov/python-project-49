@@ -31,7 +31,7 @@ def nod():
         print('Correct!')
     else:
         y != a
-        print("'", y, "' is wrong answer ;(. Correct answer was '", a, "'.\nLet's try again,", name1)  # noqa: E501
+        print("'", y, "' is wrong answer ;(. Correct answer was '", a, "'.\nLet's try again,", name1, end='!')  # noqa: E501
         return
     # второй проход
     a = random.randint(1, 99)
@@ -47,7 +47,7 @@ def nod():
         print('Correct!')
     else:
         y != a
-        print("'", y, "' is wrong answer ;(. Correct answer was '", a, "'.\nLet's try again,", name1)  # noqa: E501
+        print("'", y, "' is wrong answer ;(. Correct answer was '", a, "'.\nLet's try again,", name1, end='!')  # noqa: E501
         return
     # третий проход
     a = random.randint(1, 99)
@@ -60,8 +60,8 @@ def nod():
             b = b - a
     y = int(input("Your answer:"))
     if y == a:
-        print('Correct!\nCongratulations,', name1)
+        print('Correct!\nCongratulations,', name1, end='!')
     else:
         y != a
-        print("'", y, "' is wrong answer ;(. Correct answer was '", a, "'.\nLet's try again,", name1)  # noqa: E501
+        print("'", y, "' is wrong answer ;(. Correct answer was '", a, "'.\nLet's try again,", name1, end='!')  # noqa: E501
         return
