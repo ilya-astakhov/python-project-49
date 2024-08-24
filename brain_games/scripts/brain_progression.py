@@ -10,7 +10,7 @@ def main():
     progression()
 
 
-if __name1, end='!'__ == '__main__':
+if __name__ == '__main__':
     main()
 
 
@@ -30,7 +30,7 @@ def progression():
         print('Correct!')
     else:
         y != x
-        print("'", y, "' is wrong answer ;(. Correct answer was '", x, "'.\nLet's try again,", name1, end='!'1)  # noqa: E501
+        print("'", y, "' is wrong answer ;(. Correct answer was '", x, "'.\nLet's try again,", name1, end='!')  # noqa: E501
         return
     # вторая проходка
     a = random.randint(1, 50)
@@ -46,7 +46,7 @@ def progression():
         print('Correct!')
     else:
         y != x
-        print("'", y, "' is wrong answer ;(. Correct answer was '", x, "'.\nLet's try again,", name1, end='!'1)  # noqa: E501
+        print("'", y, "' is wrong answer ;(. Correct answer was '", x, "'.\nLet's try again,", name1, end='!')  # noqa: E501
         return
     # третья проходка
     a = random.randint(1, 50)
@@ -59,8 +59,8 @@ def progression():
     print("Question:", result)
     y = int(input("Your answer:"))
     if y == x:
-        print('Correct!\nCongratulations,', name1, end='!'1)
+        print('Correct!\nCongratulations,', name1, end='!')
     else:
         y != x
-        print("'", y, "' is wrong answer ;(. Correct answer was '", x, "'.\nLet's try again,", name1, end='!'1)  # noqa: E501
+        print("'", y, "' is wrong answer ;(. Correct answer was '", x, "'.\nLet's try again,", name1, end='!')  # noqa: E501
         return
