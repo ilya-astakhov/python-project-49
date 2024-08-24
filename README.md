@@ -19,3 +19,9 @@
 
 ### Аскинема brain-gsd:
 (https://asciinema.org/a/eCswv8ZIjobEYty35gsNNfAq5)
+
+
+<a href="https://codeclimate.com/github/ilya-astakhov/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/475a81d793917967648f/maintainability" /></a>
+
+
+<a href="https://codeclimate.com/github/ilya-astakhov/python-project-49/test_coverage"><img src="https://api.codeclimate.com/v1/badges/475a81d793917967648f/test_coverage" /></a>
