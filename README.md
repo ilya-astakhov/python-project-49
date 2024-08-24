@@ -7,3 +7,15 @@
 
 ### Аскинема brain-even:
 (https://asciinema.org/a/JAcjunx0A6BqyWlfvpZmxQddD)
+
+
+### Аскинема brain-progression:
+(https://asciinema.org/a/ACRnFdd4qmVWt9lKweofz7EGz)
+
+
+### Аскинема brain-prime:
+(https://asciinema.org/a/cUcbZ8vutUGRU1YTwlK6GsibB)
+
+
+### Аскинема brain-gsd:
+(https://asciinema.org/a/eCswv8ZIjobEYty35gsNNfAq5)
