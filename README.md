@@ -1,6 +1,10 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/ilya-astakhov/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/ilya-astakhov/python-project-49/actions)
 
+<a href="https://codeclimate.com/github/ilya-astakhov/python-project-49/test_coverage"><img src="https://api.codeclimate.com/v1/badges/475a81d793917967648f/test_coverage" /></a>
+
+<a href="https://codeclimate.com/github/ilya-astakhov/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/475a81d793917967648f/maintainability" /></a>
+
 ### Аскинема brain-calc:
 (https://asciinema.org/a/pdQSXaow3xlim7N5uL6sWvBWC)
 
@@ -19,9 +23,3 @@
 
 ### Аскинема brain-gsd:
 (https://asciinema.org/a/eCswv8ZIjobEYty35gsNNfAq5)
-
-
-<a href="https://codeclimate.com/github/ilya-astakhov/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/475a81d793917967648f/maintainability" /></a>
-
-
-<a href="https://codeclimate.com/github/ilya-astakhov/python-project-49/test_coverage"><img src="https://api.codeclimate.com/v1/badges/475a81d793917967648f/test_coverage" /></a>
