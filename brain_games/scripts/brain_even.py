@@ -10,8 +10,8 @@ def main():
     even()
 
 
-if __name__ == '__main__':
-    main()
+# if __name__ == '__main__':
+    # main()
 
 
 def even():
