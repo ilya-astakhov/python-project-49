@@ -1,9 +1,11 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "5 brain games"
 authors = ["ilya-astakhov"]
 readme = "README.md"
+repository = github.com
+classifiers = classifiers
 packages = [
   { include = "brain_games" },
 ]
