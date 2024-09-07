@@ -7,3 +7,16 @@ dist/
 .coverage
 coverage.xml
 .pytest_cache/
+__init__.cpython-310.pyc
+cli.cpython-310.pyc
+hexlet_code-0.1.0-py3-none-any.whl
+hexlet_code-0.1.0.tar.gz
+__init__.cpython-310.pyc
+brain_calc.cpython-310.pyc
+brain_even.cpython-310.pyc
+brain_games.cpython-310.pyc
+brain_gcd.cpython-310.pyc
+brain_prime.cpython-310.pyc
+brain_progression.cpython-310.pyc
+hexlet_code-0.1.0-py3-none-any.whl
+hexlet_code-0.1.0.tar.gz

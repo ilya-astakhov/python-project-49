@@ -4,8 +4,12 @@ version = "0.1.0"
 description = "5 brain games"
 authors = ["ilya-astakhov"]
 readme = "README.md"
-repository = github.com
-classifiers = classifiers
+repository = 'https://github.com/ilya-astakhov/python-project-49'
+
+classifiers = [
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
 packages = [
   { include = "brain_games" },
 ]
