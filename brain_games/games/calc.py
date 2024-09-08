@@ -1,6 +1,6 @@
 import random
 from brain_games.utils import generate_rand_num
-from brain_games.the_engine import run_game
+from brain_games.engine import run_game
 from brain_games.constants import GAME_INSTRUCTIONS, MATH_SIGNS
 
 
