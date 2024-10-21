@@ -11,8 +11,9 @@ def get_math_expression_and_result():
     if action == '+':
         result = first_num + second_num
     elif action == '-':
-        result = first_num - second_num elif action == '*':
-        result = first_num * second_num # Если вы добавите деление, убедитесь в обработке деления на ноль
+        result = first_num - second_num 
+    elif action == '*':
+        result = first_num * second_num
 
 
     expression = f'{first_num} {action} {second_num}'
