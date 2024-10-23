@@ -7,15 +7,12 @@ from brain_games.constants import GAME_INSTRUCTIONS, MATH_SIGNS
 def get_math_expression_and_result():
     first_num, second_num = generate_rand_num(10), generate_rand_num(10)
     action = random.choice(MATH_SIGNS)
-    
     if action == '+':
         result = first_num + second_num
     elif action == '-':
-        result = first_num - second_num 
+        result = first_num - second_num
     elif action == '*':
         result = first_num * second_num
-
-
     expression = f'{first_num} {action} {second_num}'
     return expression, str(result)
 
